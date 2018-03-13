@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".activity.MainActivity"
+        android:layout_width="match_parent"
+        android:background="@color/top_color"
+        android:layout_height="50dp"
+        >
+    <ImageView
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:padding="3dp"
+        android:src="@mipmap/fanhui"
+        android:id="@+id/leftIcon"
+        android:layout_alignParentLeft="true"
+
+        />
+        <TextView
+            android:id="@+id/titleView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+        />
+
+    <LinearLayout
+        android:id="@+id/rightLayout"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical"
+        >
+        <com.mapuni.caremission_ens.views.NewsBar
+            android:id="@+id/newsBar"
+            android:layout_width="70dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#0ca566"/>
+
+        <ImageView
+            android:id="@+id/more"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/more"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
