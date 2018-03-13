@@ -1,10 +1,10 @@
-apply plugin: 'com.android.library'
+apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
     defaultConfig {
-     //   applicationId "com.mapuni.caremission_ens"
+        applicationId "com.mapuni.caremission_ens"
         minSdkVersion 14
         targetSdkVersion 23
         versionCode 1
